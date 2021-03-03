@@ -1,0 +1,7 @@
+﻿@*
+    // 한번의 선언으로 Views폴더 아래에 있는 Razer View 파일에서 TagHelper, namespace 공통으로 사용 가능
+    // RunTime 진행 시 Razor Engine이 View file을 컴파일하기 이전에 view 폴더 안에 있는 코드(html, C#, TagHelper)가 올바르게 작동하는지 확인하기위해 찾아보는 파일
+*@
+
+@using AspnetCoreStudy
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers

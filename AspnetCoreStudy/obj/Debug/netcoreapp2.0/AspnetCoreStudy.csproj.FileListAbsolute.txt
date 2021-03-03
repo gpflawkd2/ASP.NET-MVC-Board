@@ -1,0 +1,11 @@
+D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\bin\Debug\netcoreapp2.0\AspnetCoreStudy.deps.json
+D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\bin\Debug\netcoreapp2.0\AspnetCoreStudy.runtimeconfig.json
+D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\bin\Debug\netcoreapp2.0\AspnetCoreStudy.runtimeconfig.dev.json
+D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\bin\Debug\netcoreapp2.0\AspnetCoreStudy.dll
+D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\bin\Debug\netcoreapp2.0\AspnetCoreStudy.pdb
+D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.csprojAssemblyReference.cache
+D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.csproj.CoreCompileInputs.cache
+D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.AssemblyInfoInputs.cache
+D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.AssemblyInfo.cs
+D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.dll
+D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.pdb
