@@ -16,19 +16,5 @@ namespace AspnetCoreStudy.Controllers
             return View();
         }
 
-        public IActionResult Java()
-        {
-            return View();
-        }
-
-        public IActionResult CSharp()
-        {
-            return View();
-        }
-
-        public IActionResult Cpp()
-        {
-            return View();
-        }
     }
 }

@@ -9,3 +9,14 @@ D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\obj\Debug\netcoreapp2.0\As
 D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.AssemblyInfo.cs
 D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.dll
 D:\ETC\PJ\ASP.NET MVC\AspnetCoreStudy\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.pdb
+D:\GitHub\ASP.NET-MVC-Hello\AspnetCoreStudy\bin\Debug\netcoreapp2.0\AspnetCoreStudy.deps.json
+D:\GitHub\ASP.NET-MVC-Hello\AspnetCoreStudy\bin\Debug\netcoreapp2.0\AspnetCoreStudy.runtimeconfig.json
+D:\GitHub\ASP.NET-MVC-Hello\AspnetCoreStudy\bin\Debug\netcoreapp2.0\AspnetCoreStudy.runtimeconfig.dev.json
+D:\GitHub\ASP.NET-MVC-Hello\AspnetCoreStudy\bin\Debug\netcoreapp2.0\AspnetCoreStudy.dll
+D:\GitHub\ASP.NET-MVC-Hello\AspnetCoreStudy\bin\Debug\netcoreapp2.0\AspnetCoreStudy.pdb
+D:\GitHub\ASP.NET-MVC-Hello\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.csprojAssemblyReference.cache
+D:\GitHub\ASP.NET-MVC-Hello\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.csproj.CoreCompileInputs.cache
+D:\GitHub\ASP.NET-MVC-Hello\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.AssemblyInfoInputs.cache
+D:\GitHub\ASP.NET-MVC-Hello\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.AssemblyInfo.cs
+D:\GitHub\ASP.NET-MVC-Hello\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.dll
+D:\GitHub\ASP.NET-MVC-Hello\AspnetCoreStudy\obj\Debug\netcoreapp2.0\AspnetCoreStudy.pdb

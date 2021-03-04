@@ -1,7 +1,38 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿Razor Syntax
+1. 골뱅이 기호 사용
+2. if, for, foreach 구문
+3. (string) -> (int), toString();
+
 @{
+    var name = "홍길동";
+    var age = 9;
 }
 
-<h1>StudyController - Index 페이지</h1>
+<h1>@name 님 환영합니다.</h1>
+
+@if (age == 10)
+{
+    <h2>@name 님은 @age 살 입니다.</h2>
+}
+else
+{
+    <h2>@name 님은 나이를 알 수 없습니다.</h2>
+}
+
+@for (var index = 1; index < 10; index++)
+{
+    <h3>@index 번째 입니다.</h3>
+}
+
+@{
+    var list = new List<string>()
+{
+"Apple",
+"Orange"
+};
+}
+
+@foreach (var textArr in list)
+{
+    <h3>@textArr 입니다.</h3>
+}
