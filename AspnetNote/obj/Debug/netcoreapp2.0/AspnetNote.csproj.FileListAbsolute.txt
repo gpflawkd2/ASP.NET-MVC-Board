@@ -1,0 +1,22 @@
+D:\ETC\PJ\ASP.NET MVC\AspnetNote\AspnetNote\bin\Debug\netcoreapp2.0\AspnetNote.deps.json
+D:\ETC\PJ\ASP.NET MVC\AspnetNote\AspnetNote\bin\Debug\netcoreapp2.0\AspnetNote.runtimeconfig.json
+D:\ETC\PJ\ASP.NET MVC\AspnetNote\AspnetNote\bin\Debug\netcoreapp2.0\AspnetNote.runtimeconfig.dev.json
+D:\ETC\PJ\ASP.NET MVC\AspnetNote\AspnetNote\bin\Debug\netcoreapp2.0\AspnetNote.dll
+D:\ETC\PJ\ASP.NET MVC\AspnetNote\AspnetNote\bin\Debug\netcoreapp2.0\AspnetNote.pdb
+D:\ETC\PJ\ASP.NET MVC\AspnetNote\AspnetNote\obj\Debug\netcoreapp2.0\AspnetNote.csprojAssemblyReference.cache
+D:\ETC\PJ\ASP.NET MVC\AspnetNote\AspnetNote\obj\Debug\netcoreapp2.0\AspnetNote.csproj.CoreCompileInputs.cache
+D:\ETC\PJ\ASP.NET MVC\AspnetNote\AspnetNote\obj\Debug\netcoreapp2.0\AspnetNote.AssemblyInfoInputs.cache
+D:\ETC\PJ\ASP.NET MVC\AspnetNote\AspnetNote\obj\Debug\netcoreapp2.0\AspnetNote.AssemblyInfo.cs
+D:\ETC\PJ\ASP.NET MVC\AspnetNote\AspnetNote\obj\Debug\netcoreapp2.0\AspnetNote.dll
+D:\ETC\PJ\ASP.NET MVC\AspnetNote\AspnetNote\obj\Debug\netcoreapp2.0\AspnetNote.pdb
+D:\GitHub\ASP.NET-MVC-Hello\AspnetNote\bin\Debug\netcoreapp2.0\AspnetNote.deps.json
+D:\GitHub\ASP.NET-MVC-Hello\AspnetNote\bin\Debug\netcoreapp2.0\AspnetNote.runtimeconfig.json
+D:\GitHub\ASP.NET-MVC-Hello\AspnetNote\bin\Debug\netcoreapp2.0\AspnetNote.runtimeconfig.dev.json
+D:\GitHub\ASP.NET-MVC-Hello\AspnetNote\bin\Debug\netcoreapp2.0\AspnetNote.dll
+D:\GitHub\ASP.NET-MVC-Hello\AspnetNote\bin\Debug\netcoreapp2.0\AspnetNote.pdb
+D:\GitHub\ASP.NET-MVC-Hello\AspnetNote\obj\Debug\netcoreapp2.0\AspnetNote.csprojAssemblyReference.cache
+D:\GitHub\ASP.NET-MVC-Hello\AspnetNote\obj\Debug\netcoreapp2.0\AspnetNote.csproj.CoreCompileInputs.cache
+D:\GitHub\ASP.NET-MVC-Hello\AspnetNote\obj\Debug\netcoreapp2.0\AspnetNote.AssemblyInfoInputs.cache
+D:\GitHub\ASP.NET-MVC-Hello\AspnetNote\obj\Debug\netcoreapp2.0\AspnetNote.AssemblyInfo.cs
+D:\GitHub\ASP.NET-MVC-Hello\AspnetNote\obj\Debug\netcoreapp2.0\AspnetNote.dll
+D:\GitHub\ASP.NET-MVC-Hello\AspnetNote\obj\Debug\netcoreapp2.0\AspnetNote.pdb
