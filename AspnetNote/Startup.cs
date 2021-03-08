@@ -22,6 +22,17 @@ namespace AspnetNote
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            // DI 의존성 주입
+            // MiddleWare 추가
+
+            // Session - 서비스에 등록함
+            services.AddSession();
+
+            // Identity
+
+            // Web API 관련 기능
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,6 +49,9 @@ namespace AspnetNote
             }
 
             app.UseStaticFiles();
+
+            // Application 단위에서 Session을 사용하겠다는 선언
+            app.UseSession();
 
             app.UseMvc(routes =>
             {
