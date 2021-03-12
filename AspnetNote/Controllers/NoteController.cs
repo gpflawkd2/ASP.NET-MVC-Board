@@ -68,6 +68,11 @@ namespace AspnetNote.Controllers
             return View();
         }
 
+        /// <summary>
+        /// 게시물 추가 전송
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         public IActionResult Add(Note model)
         {
@@ -103,7 +108,7 @@ namespace AspnetNote.Controllers
         /// 게시물 수정
         /// </summary>
         /// <returns></returns>
-        public IActionResult Edit()
+        public IActionResult Edit(int noteNo)
         {
             if (HttpContext.Session.GetInt32("User_Login_Key") == null)
             {
@@ -111,14 +116,51 @@ namespace AspnetNote.Controllers
                 return RedirectToAction("Login", "Account");
             }
 
-            return View();
+            using (var db = new AspnetNoteDbContext())
+            {
+                var note = db.Notes.FirstOrDefault(n => n.NoteNo.Equals(noteNo));
+                return View(note);
+            }
+        }
+
+        /// <summary>
+        /// 게시물 수정 전송
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public IActionResult Edit(Note model)
+        {
+            if (HttpContext.Session.GetInt32("User_Login_Key") == null)
+            {
+                //로그인이 안된 상태
+                return RedirectToAction("Login", "Account");
+            }
+
+            //int.Parse : integer값으로 변환
+            model.UserNo = int.Parse(HttpContext.Session.GetInt32("User_Login_Key").ToString());
+
+            if (ModelState.IsValid)
+            {
+                using (var db = new AspnetNoteDbContext())
+                {
+                    db.Notes.Update(model);
+
+                    if (db.SaveChanges() > 0)
+                    {
+                        return Redirect("Index");
+                    }
+                    ModelState.AddModelError(string.Empty, "게시물을 저장할 수 없습니다.");
+                }
+            }
+            return View(model);
         }
 
         /// <summary>
         /// 게시물 삭제
         /// </summary>
         /// <returns></returns>
-        public IActionResult Delete()
+        public IActionResult Delete(int noteNo)
         {
             if (HttpContext.Session.GetInt32("User_Login_Key") == null)
             {
@@ -126,7 +168,19 @@ namespace AspnetNote.Controllers
                 return RedirectToAction("Login", "Account");
             }
 
-            return View();
+            using (var db = new AspnetNoteDbContext())
+            {
+                var note = db.Notes.FirstOrDefault(n => n.NoteNo.Equals(noteNo));
+
+                db.Notes.Remove(note);
+
+                if (db.SaveChanges() > 0)
+                {
+                    return Redirect("Index");
+                }
+            }
+            return Redirect("Index");
         }
+
     }
 }

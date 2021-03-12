@@ -4,23 +4,27 @@
             <th>번호</th>
             <th>제목</th>
             <th>작성자</th>
+            <th>수정</th>
+            <th>삭제</th>
         </tr>
     </thead>
     <tbody>
         @*Controller의 list를 Model로 받아옴*@
         @foreach (var note in Model)
         {
-            <tr>
-                <td>@note.NoteNo</td>
-                <td>
-                    @*http://www.example.com*@
-                    @*http://www.example.com/{noteNo}*@
-                    @*http://www.example.com/Note/Detail?noteNo=1*@
-                    @*Controller의 Parameter명과 asp-route- 뒤에 붙은 명칭이 같아야 함*@
-                    <a asp-controller="Note" asp-action="Detail" asp-route-noteNo="@note.NoteNo">@note.NoteTitle</a>
-                </td>
-                <td>@note.UserNo</td>
-            </tr>
+        <tr>
+            <td>@note.NoteNo</td>
+            <td>
+                @*http://www.example.com*@
+                @*http://www.example.com/{noteNo}*@
+                @*http://www.example.com/Note/Detail?noteNo=1*@
+                @*Controller의 Parameter명과 asp-route- 뒤에 붙은 명칭이 같아야 함*@
+                <a asp-controller="Note" asp-action="Detail" asp-route-noteNo="@note.NoteNo">@note.NoteTitle</a>
+            </td>
+            <td>@note.UserNo</td>
+            <td><a asp-controller="Note" asp-action="Edit" asp-route-noteNo="@note.NoteNo">Edit</a></td>
+            <td><a asp-controller="Note" asp-action="Delete" asp-route-noteNo="@note.NoteNo">Delete</a></td>
+        </tr>
         }
     </tbody>
 </table>
