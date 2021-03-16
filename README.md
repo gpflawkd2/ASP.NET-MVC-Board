@@ -1,5 +1,5 @@
 # ASP.NET-MVC-Hello
-ASP.NET MVC web page
+Board Project
 
 ## Prerequisites
 + .NET Core 2.0 SDK
