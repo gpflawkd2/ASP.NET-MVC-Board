@@ -1,5 +1,6 @@
-# ASP.NET-MVC-Hello
-Board Project
+# ASP.NET-MVC-Board
+- Board Project
+- include Trumbowyg Editor
 
 ## Prerequisites
 + .NET Core 2.0 SDK
